@@ -88,7 +88,7 @@
 
 			<div class="col-md-9">
 	            <div class="profile-content">
-					<h3 class="text-Primary">Selamat Datang <?= $pelanggan['nama_cust']; ?>, Nikmati layanan kami bersama
+					<h3 class="text-rimary">Selamat Datang <?= $pelanggan['nama_cust']; ?>, Nikmati layanan kami bersama
 					berbagai mitra toko buku dari berbagai genre, ayo cari buku kesukaan mu disini!</h3>
 					<br> <br> <br>
 					<h4 class="text-black">Biodata Customer: </h2>
