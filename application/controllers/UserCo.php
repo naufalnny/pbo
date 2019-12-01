@@ -57,7 +57,7 @@ class UserCo extends CI_Controller {
     public function register()
     {
       $data['pelanggan'] = $this->db->get_where('pelanggan', ['email'=> $this->session->userdata('email')]) ->row_array();
-        $this->load->view('header');
+        $this->load->view('header',$data);
         $this->load->view('register');
         $this->load->view('footer');
     }
@@ -93,7 +93,7 @@ class UserCo extends CI_Controller {
 
             $this->db->insert('pelanggan', $data);
             $this->session->set_flashdata('message', '<div class="alert alert-success" role="alert> Anda Berhasil Terdaftar ke OBS </div>');
-            $this->load->view('header');
+            $this->load->view('header', $data);
             $this->load->view('login');
             $this->load->view('footer');
         }

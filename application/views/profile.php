@@ -29,7 +29,7 @@
 <body>
 	<div class="site-wrap">
 	<div class="container">
-	    <div class="row profile">
+	    <div class="row">
 			<div class="col-md-3">
 				<div class="profile-sidebar">
 					<!-- SIDEBAR USERPIC -->
@@ -85,10 +85,10 @@
 
 
 
-
+		<div class = "row">
 			<div class="col-md-9">
 	            <div class="profile-content">
-					<h3 class="text-rimary">Selamat Datang <?= $pelanggan['nama_cust']; ?>, Nikmati layanan kami bersama
+					<h3 class="">Selamat Datang!<h3 class="text-primary"> <?= $pelanggan['nama_cust']; ?></h3> Nikmati layanan kami bersama
 					berbagai mitra toko buku dari berbagai genre, ayo cari buku kesukaan mu disini!</h3>
 					<br> <br> <br>
 					<h4 class="text-black">Biodata Customer: </h2>
@@ -97,10 +97,11 @@
 					<h4 class="text-black" style="padding-left: 15px;">Nama : <?= $pelanggan['nama_cust']; ?> </h2>
 					<h4 class="text-black" style="padding-left: 15px;">E-Mail : <?= $pelanggan['email']; ?> </h2>
 					<br> <br> <br>
-					<h4 class="text-black text-center">Selamat Berbelanja, salam hangat dari babang mamat <3.</h3>
+					<h4 class="intro_title text-center">Selamat Berbelanja, salam hangat dari babang mamat <3.</h3>
 
 	            </div>
 			</div>
+		</div>
 
 
 
